@@ -1,0 +1,17 @@
+{
+  "name": "pr-reminder-bot",
+  "version": "1.0.0",
+  "description": "Notifies Slack about stale, unreviewed GitHub pull requests, on a schedule.",
+  "main": "run.js",
+  "scripts": {
+    "setup": "node setup.js",
+    "start": "node run.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["github", "slack", "pull-request", "reminder", "automation"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^22.0.1"
+  }
+}

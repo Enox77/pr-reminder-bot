@@ -1,0 +1,5 @@
+node_modules/
+.env
+.notified-cache.json
+*.log
+.directory
