@@ -1,5 +1,7 @@
 # PR Reminder Bot
 
+![PR Reminder Bot posting stale PRs to Slack](./screenshot.png)
+
 Checks your GitHub repos for open, non-draft pull requests that have no
 reviews yet and have been sitting for longer than a threshold you choose
 (default 24 hours). Sends a Slack message listing them. Runs on a schedule
